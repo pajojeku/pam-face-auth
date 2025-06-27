@@ -1,6 +1,12 @@
+![Face landmarks example](dlib_example.png)
+
 # FaceAuth
 
-**FaceAuth** is an application for user authentication based on face recognition, featuring a graphical user interface and system integration (e.g., PAM/Linux). It enables secure system login using a webcam.
+**FaceAuth** is a user authentication system based on face recognition, featuring a modern graphical interface and seamless integration with Linux systems (e.g., PAM). The application allows you to log in or authorize privileged actions (such as `sudo`) using your face instead of a typed password, or as an additional security layer.
+
+> **Remember:**  
+> FaceAuth uses 2D face recognition based on a standard webcam image. This approach is convenient and user-friendly, but it is not foolproof or as secure as advanced biometric systems (such as 3D or infrared recognition). The system may be vulnerable to sophisticated spoofing attacks (e.g., high-quality photos or videos). For critical security scenarios, always use FaceAuth as a supplement to strong passwords, not as the sole protection.
+
 
 ## Features
 
